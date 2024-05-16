@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eeeeee;
+}
+#navBar{
+    height: 95px;
+    background-color: #51106b;
+}
+#navBar ul{
+    margin-left: 15vw;
+}
+#navBar ul a{
+    color: white;
+}
+#navBar #Dropdown{
+    background-color: #51106b;
+}
+.dropdown-item:hover{
+    background-color: #51106b;
+}
+#search{
+    margin-left: auto;
+    margin-right: 40px;
+}
+.navbar span i{
+    color: white;
+    font-size: 20px;
+}
+#section2{
+    width: 100%;
+    height: 220px;
+    background-image: linear-gradient(#51106b70,#51106b70), url(Images/banner-05.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+#section2 h2{
+    font-family: raleway;
+    font-weight: 900;
+}
+#section2 p{
+    margin-top: 20px;
+    font-family: raleway;
+    font-size: 14px;
+}
+#section3{
+    width: 100%;
+    height: 25vh;
+    font-family: raleway;
+    text-align: center;
+    padding-top: 35px;
+}
+#section3 h2{
+    font-size: 24px;
+    font-weight: 200;
+    color: #51106b;
+}
+#section3 h2 span{
+    font-weight: 600;
+}
+#section3 p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+#section4{
+    width: 70%;
+}
+.hover1{
+    height: 350px;
+    background-color: #51106b;
+    border-radius: 10px;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 10px 30px 0px;
+}
+.hover1 h3{
+    font-size: 18px;
+    font-family: raleway;
+    font-weight:900;
+    margin-top: 25px;
+}
+.hover1 p{
+    font-size: 14px;
+    margin-top: 30px;
+    display: none;
+    transition: all 0.5s;
+}
+.hover1:hover p{
+    display: block;
+}
+#section5{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 30px;
+}
+#section5 .container{
+    width: 70%;
+    font-family: raleway;
+    padding: 40px 0;
+}
+#row1 h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #51106b;
+}
+#row1 h4{
+    font-size: 14px;
+    color: #51106b;
+    margin-top: 25px;
+    font-weight: 600;
+}
+#row1 p{
+    font-size: 12px;
+    margin-top: 25px;
+    line-height: 22px;
+}
+#row2 h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+#row2 p{
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+#row2 h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+    color: #51106b;
+}
+#row2 span{
+    display: block;
+    font-size: 12px;
+} 
+#row2 input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 25px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+#row2 button{
+    margin-top: 25px;
+    border: none;
+    background-color: #51106b;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-family: raleway;
+    font-weight: 900;
+    cursor: pointer;
+}
+#row2 button:hover{
+    background-color: #3e3e3e;
+}
+#row3{
+    padding-left: 35px;
+}
+#row3 img{
+    margin-bottom: 40px;
+}
+#section6{
+    width: 70%;
+}
+#section6 .policy{
+    margin-top: 40px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 10px 30px 0px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 20px;
+}
+#section6 .policy img{
+    margin-top: 25px;
+}
+#section6 .policy h3{
+    color: #51106b;
+    font-size: 22px;
+    margin-top: 25px;
+}
+#section6 .policy p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 22px;
+    margin-top: 25px;
+    word-spacing: 4px;
+}
+.location{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin-top: 30px;
+}
+.location iframe{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+#footer{
+    width: 100%;
+    background-color: #51106b;
+    color: white;
+}
+#footer .container{
+    width: 70%;
+}
+#footer .container .col-3{
+    margin-top: 50px;
+}
+#footer #column1 p{
+    font-size: 14px;
+    margin-top: 25px;
+} 
+#footer h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#footer a{
+    display: block;
+    line-height: 28px;
+}
+#footer #pay{
+    margin-bottom: 50px;
+}
+#footer #pay img{
+    display: block;
+    margin: 30px 0;
+}
+#footer .icon{
+    font-size: 20px;
+}
+#footer span i{
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+/* ---------Scrollup------------ */
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    background-image: url(Images/arrow-144-38.png);
+    height: 38px;
+    width: 38px;
+}
+
+
+
